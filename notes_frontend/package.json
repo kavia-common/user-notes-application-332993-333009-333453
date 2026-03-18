@@ -4,7 +4,7 @@
   "private": true,
   "description": "React frontend for the Notes App (minimal scaffold to satisfy preview start command).",
   "scripts": {
-    "start": "react-scripts start"
+    "start": "PORT=3000 BROWSER=none react-scripts start"
   },
   "dependencies": {
     "react": "^18.2.0",
